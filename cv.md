@@ -8,13 +8,10 @@
 *********
 
 # A little about me
-*********
 I am a 10th grade student, I do programming in my free time from school
 
-*******
 I see my future in programming, because I consider it a profession of the future
 
-*******
 
 I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
 
