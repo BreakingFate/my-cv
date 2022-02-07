@@ -1,4 +1,169 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: OpenGost Type A TT, sans-serif;
+
 }
+a{
+	text-decoration:none;
+}
+body{
+	background-color: #008B8B;
+}
+header {
+	width: 100%;
+	background:#c0c0c0;
+	height: 60px;
+	position: fixed;
+	z-index: 2;
+}
+
+.shapka{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.nav {
+	display: block;
+
+}
+
+ul > li{
+	padding-top: 12.5px;
+	font-size: 25px;
+	
+}
+.photo {
+	position: absolute;
+	width: 388px;
+	height: 389px;
+	margin-top: 60px ;
+	z-index: 1;
+	border-color:#191970	 ;
+	border-width: 0 3px 0 0;
+	border-style: solid;
+	}
+.name {
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 389px;
+	width: calc(100% - 388px);
+	height: 389px;
+	text-align: center;
+	font-size: 40px;
+	color: #FFA07A;
+}
+a > h2{
+	color: #FFA07A;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 30px;
+}
+
+@font-face {
+	font-family: "OpenGost Type A TT"; 
+	src: url("https://fontstorage.com/ru/font/nikita-volchenkov/opengost-a") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+.contacts {
+	width:  388px;
+	height: 170px;
+	position: absolute;
+	margin-top:449px ;
+	border-color:#191970	 ;
+	border-width: 3px 3px  3px 0;
+	border-style: solid;
+	padding-bottom: 10px;
+	
+}
+
+.contacts ul > li{
+	font-size: 20px;
+	padding-left: 40px;
+	padding-top: 20px;
+	color: #FFD700;
+
+}
+.about {
+	width: calc(100% - 388px);
+	height: auto;
+	position: absolute;
+	margin-top:449px ;
+	margin-left: 389px;
+	border-color:#191970	 ;
+	border-width: 3px 0  3px 3px;
+	border-style: solid;
+	padding-bottom: 10.5px;
+
+}
+.about ul > li{
+	list-style-type: none;
+	padding-left: 40px;
+	padding-right: 10px;
+	color: #FFD700;
+	font-size: 20px;
+}
+.about h2 {
+	text-align: center;
+}
+
+.skills {
+	width:  388px;
+	height: 170px;
+	position: absolute;
+	margin-top:634px ;
+	border-color:#191970	 ;
+	border-width: 0 3px  3px 0;
+	border-style: solid;
+	padding-bottom: 10px;
+	
+}
+.skills ul > li{
+	list-style-type: none;
+	padding-left: 40px;
+	padding-right: 10px;
+	color: #FFD700;
+	font-size: 20px;
+}
+.courses {
+	width: calc((100% - 388px)/2);
+	height: auto;
+	position: absolute;
+	margin-top:634px ;
+	border-color:#191970	 ;
+	border-width: 0 3px  3px 0;
+	border-style: solid;
+	padding-bottom: 10px;
+	margin-left: 389px;
+	padding-bottom: 46.5px;
+
+}
+.courses ul > li{
+	list-style-type: none;
+	color: #FFD700;
+	font-size: 30px;
+	text-align: center;
+}
+.languages {
+	width: 389px;
+	height: auto;
+	position: absolute;
+	margin-top:634px ;
+	border-color:#191970	 ;
+	border-width: 0 0  3px 0;
+	border-style: solid;
+	padding-bottom: 10px;
+	margin-left: 778px;
+	padding-bottom: 46.5px;
+	
+}
+.languages ul > li{
+	list-style-type: none;
+	color: #FFD700;
+	font-size: 30px;
+	

@@ -3,7 +3,7 @@
 # Contacts:
 + Phone: +7 977 969 3219
 + Discord: BreakingFate#0961
-+ Gmail: borisovka007@gmail.com
++ Email: borisovka007@gmail.com
 + VKontakte: https://vk.com/kostya_toose
 *********
 
